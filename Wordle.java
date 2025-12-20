@@ -1,3 +1,19 @@
+/**
+Feedback:
+Very nicely written
+Notice:
+"""
+if(resultRow[i]=='G')
+            {
+            }
+            else
+                return false;
+"""
+Consider -  (resultRow[i] != 'G') { return false; }
+An empty 'if' isnt good practice, try how to use the counter-negative :)
+
+**/
+
 public class Wordle {
 
     // Reads all words from dictionary filename into a String array.
